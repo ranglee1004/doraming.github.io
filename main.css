@@ -77,7 +77,7 @@ p .text-muted {
 /* main_slide */
 /* ************************************/
 .main_slide {
-  background-image: url('/assets/img/bg_05.avif');
+  background-image: url('/assets/img/bg_01.avif');
   background-position: center;
   background-size: cover;
   min-height: 560px;
