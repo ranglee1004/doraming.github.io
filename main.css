@@ -81,7 +81,7 @@ p .text-muted {
   background-position: center;
   background-size: cover;
   min-height: 560px;
-  color: white;
+  color: #000;
   /* text-align: center; */
 }
 
@@ -128,7 +128,7 @@ p .text-muted {
   font-weight: 600;
   font-size: 34px;
   padding: 40px 0;
-  color: #fff;
+  color: #000;
   /*
   background-color: gray; */
 }
