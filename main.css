@@ -76,6 +76,13 @@ p .text-muted {
 /* ************************************/
 /* main_slide */
 /* ************************************/
+.bg_main {
+background-image: url('/bg_04.avif');
+  background-position: center;
+  background-size: cover;
+  min-height: 560px;
+  color: white;
+}
 .main_slide {
   display: flex;
   align-items: center;
@@ -145,7 +152,7 @@ p .text-muted {
 .p_bg {
   background-position: center;
   background-size: cover;
-  background-image: url('/bg_05.avif');
+  background-image: url('/assets/img/bg_05.avif');
 }
 
 /* ************************************/
