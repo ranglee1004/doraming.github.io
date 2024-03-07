@@ -19,7 +19,7 @@ img {
 }
 
 p .text-muted {
-  color: #000;
+  color: #fff;
 }
 
 
@@ -77,11 +77,12 @@ p .text-muted {
 /* main_slide */
 /* ************************************/
 .main_slide {
-  background-image: url('bg_05.avif');
+  display: flex;align-items: center;
+  background-image: url('/assets/img/bg_05.avif');
   background-position: center;
   background-size: cover;
   min-height: 560px;
-  color: #000;
+  color: white;
   /* text-align: center; */
 }
 
@@ -128,7 +129,7 @@ p .text-muted {
   font-weight: 600;
   font-size: 34px;
   padding: 40px 0;
-  color: #000;
+  color: #fff;
   /*
   background-color: gray; */
 }
@@ -143,7 +144,7 @@ p .text-muted {
 .p_bg {
   background-position: center;
   background-size: cover;
-  background-image: url('bg_05.avif');
+  background-image: url('/assets/img/bg_05.avif');
 }
 
 /* ************************************/
