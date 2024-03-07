@@ -135,6 +135,19 @@ p .text-muted {
   background-color: gray; */
 }
 
+.p_body {
+  padding: 10px 0;
+  min-height: 200px;
+  text-align: justify;
+  word-break: break-all;
+}
+
+.p_bg {
+  background-position: center;
+  background-size: cover;
+  background-image: url('/assets/img/bg_05.avif');
+}
+
 /* ************************************/
 /* Title */
 /* ************************************/
