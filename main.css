@@ -79,7 +79,7 @@ p .text-muted {
 .main_slide {
   display: flex;
   align-items: center;
-  background-image: url('/assets/img/bg_05.avif');
+  background-image: url('bg_05.avif');
   background-position: center;
   background-size: cover;
   min-height: 560px;
