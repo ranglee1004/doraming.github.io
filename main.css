@@ -145,7 +145,7 @@ p .text-muted {
 .p_bg {
   background-position: center;
   background-size: cover;
-  background-image: url('/assets/img/bg_05.avif');
+  background-image: url('/bg_05.avif');
 }
 
 /* ************************************/
