@@ -55,6 +55,10 @@ p .text-muted {
   color: #fff;
 }
 
+.navbar-nav .nav-link.active {
+  color: #fe347e;
+}
+
 .nav_shadow {
   box-shadow: gray 0px 0px 10px 0px;
 }
