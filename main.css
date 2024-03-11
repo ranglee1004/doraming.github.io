@@ -54,6 +54,9 @@ p .text-muted {
   margin-right: 4px;
 }
 
+.navbar-nav .nav-link.active{
+  color:#fff;
+}
 .nav_shadow {
   box-shadow: gray 0px 0px 10px 0px;
 }
