@@ -26,6 +26,13 @@ p .text-muted {
 /* ************************************/
 /* Navigation */
 /* ************************************/
+.bg_01 {
+  background-image: url('/bg_04.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 .navbar {
   margin-bottom: 0px;
   height: 80px;
@@ -83,6 +90,7 @@ p .text-muted {
   min-height: 560px;
   color: white;
 }
+
 .main_slide {
   display: flex;
   align-items: center;
