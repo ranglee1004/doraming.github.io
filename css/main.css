@@ -59,7 +59,7 @@ p .text-muted {
   color: #fff;
 }
 
-.navbar-nav .nav-link .a:hover {
+.navbar-nav .nav-link .a:hover!important {
   color: #fe347e;
 }
 
