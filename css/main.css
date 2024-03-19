@@ -59,8 +59,8 @@ p .text-muted {
   color: #fff;
 }
 
-.navbar-nav .nav-link .a:hover!important {
-  color: #fe347e;
+.navbar-nav .nav-link .a:hover {
+  color: #fe347e!important;
 }
 
 .nav_shadow {
