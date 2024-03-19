@@ -52,14 +52,14 @@ p .text-muted {
   font-weight: 600;
   font-size: 16px;
   margin-right: 4px;
-  color: #fe347e;
+  color: #fff;
 }
 
 .navbar-nav .nav-link.active {
   color: #fff;
 }
 
-.navbar-nav .nav-link .a:hover {
+.navbar-nav .nav-link a:hover {
   color: #fe347e!important;
 }
 
