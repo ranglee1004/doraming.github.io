@@ -67,7 +67,8 @@ p .text-muted {
   color: #fe347e!important;
 }
 
-.dropdown-menu .show span {
+
+.dropdown-menu show ul>li>a>span {
   color:#000;
 }
 
