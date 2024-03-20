@@ -67,6 +67,10 @@ p .text-muted {
   color: #fe347e!important;
 }
 
+.dropdown-menu .show a {
+  color:#000;
+}
+
 .nav_shadow {
   box-shadow: gray 0px 0px 10px 0px;
 }
