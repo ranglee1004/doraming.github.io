@@ -60,7 +60,7 @@ p .text-muted {
 } 
 
 .navbar-nav .nav-link.active {
-  color: #fff;
+  color: #fe347e!important;
 }
 
 .nav_shadow {
