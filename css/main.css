@@ -53,7 +53,7 @@ p .text-muted {
   font-size: 16px;
   margin-right: 4px;
   color: #fff;
-  text-shadow: 5px 5px gray;
+  text-shadow: 3px 2px gray;
 }
 
 .nav-link:hover {
