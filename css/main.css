@@ -27,7 +27,7 @@ p .text-muted {
 /* Navigation */
 /* ************************************/
 .bg_01 {
-  background-image: url(/img/bg_01_main.jpg);
+  background-image: url(/img/bg_main.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
