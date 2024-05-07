@@ -8,6 +8,10 @@ body {
   font-size: 16px;
   position: relative;
   padding-bottom: 320px;
+
+  background: linear-gradient(312deg, #0082f3, #ff86a2, #FB7D59, #F8D842);
+  background-size: 500% 1300%;
+  animation: gradient 15s ease infinite;
 }
 
 a {
