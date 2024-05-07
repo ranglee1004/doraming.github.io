@@ -24,15 +24,15 @@ img {
 
 .img-color img {
     filter: grayscale(100%);
-    transition: all .4s ease-in-out
+    transition: all .4s ease-in-out;
 }
 
 .img-color:hover img {
-    filter: none
+    filter: none;
 }
 
 .img-overlay {
-    position: relative
+    position: relative;
 }
 
 .img-overlay .img-hover {
