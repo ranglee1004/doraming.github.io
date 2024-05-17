@@ -264,7 +264,8 @@ p .text-muted {
 /* footer */
 /* ************************************/
 .footer {
-  background-color: #181b46;
+  background-color: #4258ff;
+  /* 181b46 */
   color: lightgray;
   padding: 28px;
   position: absolute;
