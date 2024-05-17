@@ -9,7 +9,7 @@ body {
   position: relative;
   padding-bottom: 320px;
 
-  background: linear-gradient(312deg, #ff9c9b, #ff86a2, #4258ff);
+  background: linear-gradient(312deg, #ff9c9b, #4258ff);
   animation: gradient 15s ease infinite;
 }
 
