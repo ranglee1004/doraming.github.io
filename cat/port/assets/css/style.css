@@ -1,0 +1,299 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url("https://fonts.googleapis.com/css?family=Titan+One");
+
+/* progress */
+/*
+.progress {background: #000; color: #fff; width: 100%; height: 100%; position: absolute; z-index: 5000;}
+.progress-bar {border-top: 1px solid rgba(160,160,160); position: absolute; top: 50%; width: 0%;}
+.progress-text {font-size: 20px; margin-top: 10px; position: absolute; text-align: center; top: 50%; width: 100%;}
+.porgress-complete .progress-bar {border-top-color: rgb(255,255,255);}  
+*/
+
+
+/* layout */
+#section1 {height: 100vh; background: #000;}
+#section2 {height: 100vh;}
+#section3 {}
+#section4 {}
+#section5 {}
+#section6 {}
+
+
+
+/* container */
+.container {width: 1280px; margin: 0 auto; position: relative;}
+
+
+/* nav */
+#nav {position: fixed; left: 0; top: 0; width: 100%; z-index: 100;  }
+#nav h1 {position: absolute; left: 0px; top: 5px; padding: 10px; width: 80px; cursor: pointer; z-index: 101; }
+#nav h1 svg {width: 100%;}
+#nav h1 svg .st0{fill:none; stroke:#000; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; stroke-miterlimit:10;}
+#nav h1 svg .st1{fill:#000;}
+#nav h1 svg .st3{fill: #fff;}
+#nav h1 svg.black .st0, #nav h1 svg.black .st1 {fill: #fff; stroke:#fff;}
+#nav h1 svg.black .st3 {fill: #000;}
+
+/* 햄버거 버튼 */
+.ham { 
+  overflow: hidden;  
+}
+
+
+.menu-container {
+  background-color: #ffc901;
+  border-radius: 100%;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  right: 00;
+  top: 0;
+  transition: all 0.3s;
+}
+.menu-container.full-menu {
+  border-radius: 0;
+  padding: 0 !important;
+  position: aboslute;
+  width: 100%;
+  height: 100vh;
+  right: 0;
+  top: 0;
+  transition: all 0.3s;
+}
+
+.full-menu .menu {
+  top: 30px;
+  right: 30px;
+}
+
+.menu {
+  color: white;
+  font-size: 3.5em;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
+  transition: all 0.3s;
+}
+.menu i {
+  opacity: 0.7;
+  transform: scale(1);
+  transition: all 0.3s;
+}
+.menu i:hover {
+  opacity: 1;
+  transform: scale(1.2);
+  transition: all 0.3s;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 0%;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
+.overlay.open {
+  opacity: .9;
+  visibility: visible;
+  height: 100%;
+}
+.overlay.open li {
+  animation: fadeInRight .5s ease forwards;
+  animation-delay: .35s;
+}
+.overlay.open li:nth-of-type(2) {
+  animation-delay: .4s;
+}
+.overlay.open li:nth-of-type(3) {
+  animation-delay: .45s;
+}
+.overlay.open li:nth-of-type(4) {
+  animation-delay: .50s;
+}
+.overlay div {
+  font-size: 3.2em;
+  font-family: "Titan One", san-serif;
+  position: relative;
+  height: 70%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 400;
+  text-align: center;
+}
+.overlay ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+}
+.overlay ul li {
+  display: block;
+  height: 25%;
+  height: calc(100% / 4);
+  min-height: 50px;
+  position: relative;
+  opacity: 0;
+}
+.overlay ul li a {
+  display: block;
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  overflow: hidden;
+  opacity: 0.7;
+  transform: scale(1);
+  transition: all 0.3s;
+}
+.overlay ul li a:hover, .overlay ul li a:focus, .overlay ul li a:active {
+  opacity: 1;
+  transform: scale(1.2);
+  transition: all 0.3s;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    right: 20%;
+  }
+  100% {
+    opacity: 1;
+    right: 0;
+  }
+}
+
+
+
+
+
+
+
+/* sec1 */
+.sec1 {height: 100vh;}
+.sec1 .circle {width: 70vmin; height: 70vmin; background-color: #fff; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); border-radius: 50%;}
+.sec1 .circle .hello {width: 30vmin; margin: 6vmin auto 2vmin auto;}
+.sec1 .circle .hello .st10 {animation: stroke 5s infinite;}
+.sec1 .circle .hello .st10 {fill:none; stroke:#000000; stroke-width:16; stroke-linecap:round; stroke-linejoin:round; stroke-miterlimit:10;}
+.sec1 .circle .cat {width: 40vmin; margin: 0 auto;}
+
+@keyframes stroke {
+    0%   {stroke-dashoffset: 25%; stroke-dasharray: 0 15%; stroke-width: 15;}
+	100% {stroke-dashoffset: -25%; stroke-dasharray: 15% 0; stroke-width: 15;}
+}
+
+
+
+/* 버블 */
+
+.bubble_list {overflow: hidden;}
+
+.bubble {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 1px solid #000;
+	border-radius: 50%;
+	background-color: #fff;
+	transition: all 50ms ease-in-out;
+	animation-name: bubble;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+/*
+.bubble::after {
+	content: "";
+	position: absolute;
+	border-top: 2px solid #fff;
+	border-right: 0px;
+	border-bottom: 2px solid #fff;
+	border-left: 3px solid #000;
+	border-radius: 50%;
+	transform: translate(30%,25%);
+	height: 65%;
+	width: 40%;
+}
+*/
+
+/*
+.bubble::before {
+	content: "";
+	position: absolute;
+	height: 5%;
+	width: 5%;
+	border-radius: 50%;
+	background-color: black;
+	z-index: 1;
+	transform: translate(700%, 200%)
+}
+*/
+
+.b1 {height: 16vmin; width: 16vmin; animation-duration: 6s; left: 2vw}
+.b2 {height: 9vmin;  width: 9vmin;  animation-duration: 8s; left: 20vw}
+.b3 {height: 12vmin; width: 12vmin; animation-duration: 4s; left: 49vw}
+.b4 {height: 8vmin;  width: 8vmin;  animation-duration: 10s; left: 61vw}
+.b5 {height: 14vmin; width: 14vmin; animation-duration: 11s; left: 83vw}
+.b6 {height: 5vmin;  width: 5vmin;  animation-duration: 9s; left: 50vw}
+.b7 {height: 6vmin;  width: 6vmin;  animation-duration: 9.5s; left: 73vw}
+.b8 {height: 10vmin;  width: 10vmin;  animation-duration: 14s; left: 13vw}
+.b9 {height: 4vmin;  width: 4vmin;  animation-duration: 16s; left: 4vw}
+.b10 {height: 7vmin;  width: 7vmin;  animation-duration: 12s; left: 33vw}
+.b11 {height: 16vmin; width: 16vmin; animation-duration: 8s; left: 90vw}
+.b12 {height: 9vmin;  width: 9vmin;  animation-duration: 3s; left: 70vw}
+.b13 {height: 12vmin; width: 12vmin; animation-duration: 9s; left: 80vw}
+.b14 {height: 8vmin;  width: 8vmin;  animation-duration: 5.5s; left: 60vw}
+.b15 {height: 14vmin; width: 14vmin; animation-duration: 5s; left: 40vw}
+.b16 {height: 5vmin;  width: 5vmin;  animation-duration: 7s; left: 50vw}
+.b17 {height: 6vmin;  width: 6vmin;  animation-duration: 7.5s; left: 30vw}
+.b18 {height: 10vmin;  width: 10vmin;  animation-duration: 12s; left: 3vw}
+.b19 {height: 4vmin;  width: 4vmin;  animation-duration: 18s; left: 20vw}
+.b20 {height: 7vmin;  width: 7vmin;  animation-duration: 10s; left: 15vw}
+
+
+
+@keyframes bubble {
+	0%    {transform: translate(0vw,   100vh); opacity: 1;}
+	20%   {transform: translate(0.9vw, 80vh);}
+	25%   {transform: translate(1vw,   75vh);}
+	30%   {transform: translate(0.9vw  70vh);}
+	50%   {transform: translate(0vw,   50vh); opacity: 0.7;}
+	70%   {transform: translate(-0.9vw,30vh);}
+	75%   {transform: translate(-1vw,  25vh);}
+	80%   {transform: translate(-0.9vw,20vh);}
+	100%  {transform: translate(0vw,   0vh); opacity: 0.1;}
+}
+
+
+.bubble:active {
+	background-color: transparent;
+	border: 1px solid #FFF;
+	transform: scale(20);
+}
+
+.bubble:active::before{
+	visibility: hidden;
+}
+
+.bubble:active::after{
+	visibility: hidden;
+}
+
+
+
+
+
+
+/* mediaquery */
+@media (max-width: 1280px){
+    .container {width: 100%;}
+}
+
+
+

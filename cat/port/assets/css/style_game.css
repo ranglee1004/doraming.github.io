@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/* 여백초기화 */
+body,div,ul,li,dl,dd,dt,ol,h1,h2,h3,h4,h5,h6,input,fieldset,legend,p,select,table,th,td,tr,textarea,button,form,figure,figcaption {margin:0; padding: 0;}
+
+/* a링크 초기화 */
+a{color: #222; text-decoration: none; line-height: 0; font-size: 0;}
+
+
+/* 폰트 초기화 */
+body, input, textarea, select, button, table {font-family:'Noto Sans KR', AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif; color: #222; font-size: 13px; line-height: 1.5;}
+
+
+/* 폰트 스타일초기화 */
+em,address {font-style: normal;}
+
+/* 블릿기호 초기화 */
+ul,li,ol {list-style: none;}
+
+/* 제목 태그 초기화 */
+h1,h2,h3,h4,h5,h6 {font-size: 13px; font-weight: normal;}
+
+/* 테두리 초기화 */
+img, fieldset{border: 0 none;}
+
+
+/* 버튼 초기화 */
+button {border: 0;}
+
+/* 반응형 */
+video,img {width: 100%;}
+
+/* clearfix */
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after {display: block; content: '';line-height: 0;}
+.clearfix:after {clear: both;}
+
+/* clearfix 
+float을 인한 영역깨짐 방지법
+
+float을 사용한 상위박스에 clearfix를 설정
+.clearfix:before, .clearfix:after {display: block; content: ''; line-height: 0;} //가상으로 요소에 컨텐츠를 넣을 수 있는 속성입니다.
+
+.clearfix:after {clear: both;} //float의 성질을 양쪽에서 차단하는 역할을 합니다. 
+.clearfix {*zoom:1;} //혀재는 사용하지 않지만 익스7버전에 영역을 잡기 위한 핵의 일종입니다. 지금은 몰라도 됩니다. 죽은 소스입니다.
+*/
+
+
+
+
+
+
+
+/* game css */
+h2 {margin-top: 50px; margin-bottom: 10px; text-align: center; font-size: 2em; }
+.wrap_box {width: 100%;}
+.box_list {position: relative; width: 520px; height: 520px; background: #138D75; margin: 0 auto; border-radius: 10px;}
+.box_inner {position: absolute; top: 10px; left: 10px; width: 500px; height: 500px; margin: 0 auto; background: #fff;}
+
+.box_ul li {width: 100px; height: 100px; float: left; border: 1px solid #138D75; margin: -1px; text-align: center; line-height: 100px; font-size: 2em;}
+
+.box_ul li:hover {background: #1F618D; color: #fff; }
+.btn_wrap {width: 500px; position: relative; left: 50%; transform: translate(-50%); margin-top: 30px; }
+.next_num {position: absolute; left: 23%; top: 70px; transform: translate(-50%); width: 250px; height: 50px; background: #138D75; text-align: center; line-height: 50px; color: #fff; font-weight: bold; font-size: 2em; border-radius: 5px;}
+
+.hint {position: absolute; left: 77%; top: 70px; transform: translate(-50%); width: 250px; height: 50px; border: 1px solid #1F618D; border-radius: 5px; text-align: center; line-height: 50px; font-size: 2em; font-weight: bold; color: #1F618D;}
+
+.time {width: 520px; height: 50px; color: #000; font-size: 1.6em; margin: 0 auto; position: absolute; left: 50%; top: 0px; transform: translate(-50%); text-align: center; line-height: 50px; font-size: 3em;}
+
+.startBtn {width: 520px; height: 50px; border-radius: 10px; background: #1F618D; color: #fff; font-size: 2em; margin: 0 auto; position: absolute; left: 50%; top: 150px; transform: translate(-50%); font-weight: bold;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
