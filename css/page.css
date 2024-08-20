@@ -218,13 +218,16 @@ p .text-muted {
 .footer {
   background-color: #1a1a1a;
   color: lightgray;
-  padding: 28px;
+   padding: 40px 0;
   position: absolute;
   width: 100%;
   bottom: 0px;
-  height: 270px;
+/*   height: 270px; */
   /* margin-top: 316px; */
 }
+
+
+
 
 /* ************************************/
 /* page */
