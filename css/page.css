@@ -231,6 +231,20 @@ p .text-muted {
     position: relative
 }
 
+
+.page-preview .show-on-hover {
+    position: absolute;
+    bottom: -25px;
+    background: rgba(13,20,49,.85);
+    padding: 10px 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: calc(100% + 28px);
+    left: -14px;
+    opacity: 0;
+    transition: .2s
+}
+
 /* ************************************/
 /* footer */
 /* ************************************/
