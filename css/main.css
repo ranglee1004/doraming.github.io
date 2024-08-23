@@ -13,6 +13,10 @@ body {
   animation: gradient 15s ease infinite;
 }
 
+i {
+ font-size: 2rem;
+}
+
 a {
   text-decoration: none;
 }
@@ -84,9 +88,7 @@ p .text-muted {
     justify-content: center;
     -ms-flex-pack: center
 }
-i {
- font-size: 2rem;
-}
+
 
 /* ************************************/
 /* Navigation */
