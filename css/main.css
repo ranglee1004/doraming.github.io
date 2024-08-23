@@ -73,6 +73,18 @@ p .text-muted {
   color: #fff;
 }
 
+.icon {
+    text-align: center;
+    display: inline-flex;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center
+}
+
 
 /* ************************************/
 /* Navigation */
