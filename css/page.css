@@ -245,6 +245,19 @@ p .text-muted {
     transition: .2s
 }
 
+
+.page-preview.page-preview-lg .show-on-hover {
+    left: -30px;
+    width: calc(100% + 60px);
+    bottom: -20px
+}
+
+.page-preview:hover .show-on-hover {
+    z-index: 99;
+    opacity: 1
+}
+
+
 /* ************************************/
 /* footer */
 /* ************************************/
