@@ -225,6 +225,12 @@ p .text-muted {
     transform: scale(1.11111)
 }
 
+
+.page-preview {
+    display: block;
+    position: relative
+}
+
 /* ************************************/
 /* footer */
 /* ************************************/
