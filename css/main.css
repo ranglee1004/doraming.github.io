@@ -84,7 +84,9 @@ p .text-muted {
     justify-content: center;
     -ms-flex-pack: center
 }
-
+i {
+  font-size: xx-large;
+}
 
 /* ************************************/
 /* Navigation */
