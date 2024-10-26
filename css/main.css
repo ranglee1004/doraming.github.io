@@ -19,6 +19,7 @@ i {
 
 i::before {
     content: " ";
+}
 
 i::after {
     content: " ";
