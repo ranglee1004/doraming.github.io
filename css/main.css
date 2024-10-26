@@ -17,6 +17,9 @@ i {
  font-size: 2rem;
 }
 
+.i::before {
+    content: " ";
+
 i::after {
     content: " ";
 }
