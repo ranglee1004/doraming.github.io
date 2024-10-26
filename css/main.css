@@ -17,7 +17,7 @@ i {
  font-size: 2rem;
 }
 
-.i::before {
+i::before {
     content: " ";
 
 i::after {
