@@ -384,6 +384,39 @@ p .text-muted {
     display: none;
 }
 
+.slick-slider .slick-prev:hover {
+    background: var(--fc-primary);
+    color: var(--fc-white);
+    outline: none
+}
+
+.slick-slider .slick-prev:focus {
+    display: none
+}
+
+.slick-slider .slick-next {
+    margin-top: -38px
+}
+
+.slick-slider .slick-next:hover {
+    background: var(--fc-primary);
+    color: var(--fc-white);
+    outline: none
+}
+
+.slick-slider .slick-next:focus {
+    display: none
+}
+
+.slick-slider .slick-prev {
+    margin-left: -40px;
+    margin-top: -38px
+}
+
+.team-slider .slick-next,.team-slider .slick-prev {
+    left: 76%;
+    top: -34px
+}
 
 
 /* ************************************/
