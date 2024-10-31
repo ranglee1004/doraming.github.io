@@ -264,159 +264,56 @@ p .text-muted {
   color: #000;
 }
 
-/* Slider */
-.slick-slider
-{
-    position: relative;
 
-    display: block;
-    box-sizing: border-box;
 
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+ /* Slider 슬라이더 컨테이너 */
+    .slider-container {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      max-width: 800px;
+      /* 슬라이더 최대 너비 */
+      margin: auto;
+    }
 
-    -webkit-touch-callout: none;
-    -khtml-user-select: none;
-    -ms-touch-action: pan-y;
-        touch-action: pan-y;
-    -webkit-tap-highlight-color: transparent;
-}
+    /* 카드 리스트 */
+    .card-list {
+      display: flex;
+      transition: transform 0.5s ease;
+    }
 
-.slick-list
-{
-    position: relative;
+    /* 개별 카드 */
+    .card-item {
+      flex: 0 0 25%;
+      /* 한 줄에 4개의 카드 표시 (100% / 4 = 25%) */
+      padding: 10px;
+    }
 
-    display: block;
-    overflow: hidden;
+    /* 카드 스타일 */
+    .card {
+      width: 100%;
+      /* 카드가 카드 아이템의 전체 너비를 차지하도록 설정 */
+    }
 
-    margin: 0;
-    padding: 0;
-}
-.slick-list:focus
-{
-    outline: none;
-}
-.slick-list.dragging
-{
-    cursor: pointer;
-    cursor: hand;
-}
+    /* 슬라이드 버튼 스타일 */
+    .slider-button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+    }
 
-.slick-slider .slick-track,
-.slick-slider .slick-list
-{
-    -webkit-transform: translate3d(0, 0, 0);
-       -moz-transform: translate3d(0, 0, 0);
-        -ms-transform: translate3d(0, 0, 0);
-         -o-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-}
+    .prev-btn {
+      left: 0;
+    }
 
-.slick-track
-{
-    position: relative;
-    top: 0;
-    left: 0;
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.slick-track:before,
-.slick-track:after
-{
-    display: table;
-
-    content: '';
-}
-.slick-track:after
-{
-    clear: both;
-}
-.slick-loading .slick-track
-{
-    visibility: hidden;
-}
-
-.slick-slide
-{
-    display: none;
-    float: left;
-
-    height: 100%;
-    min-height: 1px;
-}
-[dir='rtl'] .slick-slide
-{
-    float: right;
-}
-.slick-slide img
-{
-    display: block;
-}
-.slick-slide.slick-loading img
-{
-    display: none;
-}
-.slick-slide.dragging img
-{
-    pointer-events: none;
-}
-.slick-initialized .slick-slide
-{
-    display: block;
-}
-.slick-loading .slick-slide
-{
-    visibility: hidden;
-}
-.slick-vertical .slick-slide
-{
-    display: block;
-
-    height: auto;
-
-    border: 1px solid transparent;
-}
-.slick-arrow.slick-hidden {
-    display: none;
-}
-
-.slick-slider .slick-prev:hover {
-    background: var(--fc-primary);
-    color: var(--fc-white);
-    outline: none
-}
-
-.slick-slider .slick-prev:focus {
-    display: none
-}
-
-.slick-slider .slick-next {
-    margin-top: -38px
-}
-
-.slick-slider .slick-next:hover {
-    background: var(--fc-primary);
-    color: var(--fc-white);
-    outline: none
-}
-
-.slick-slider .slick-next:focus {
-    display: none
-}
-
-.slick-slider .slick-prev {
-    margin-left: -40px;
-    margin-top: -38px
-}
-
-.team-slider .slick-next,.team-slider .slick-prev {
-    left: 76%;
-    top: -34px
-}
+    .next-btn {
+      right: 0;
+    }
 
 
 /* ************************************/
