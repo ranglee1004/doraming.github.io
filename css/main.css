@@ -271,7 +271,7 @@ p .text-muted {
       position: relative;
       overflow: hidden;
       width: 100%;
-      max-width: 800px;
+/*       max-width: 800px; */
       /* 슬라이더 최대 너비 */
       margin: auto;
     }
